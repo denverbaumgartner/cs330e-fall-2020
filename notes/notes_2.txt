@@ -1,6 +1,6 @@
 - Collatz Conjecture
 
-take a pos int
+take a positive int
 if even, divide by 2
 if odd, multiply by 3 and add 1
 repeat until 1

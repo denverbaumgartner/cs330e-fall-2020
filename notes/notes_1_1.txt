@@ -11,6 +11,15 @@ Control Panel > Systems and Security > System > Advanced System Settings > Advan
 - MinGW is a compiler system based on GNU (free UNIX-style OD) GCC that
 compiles and links code to be run on Windows.
 
+Edit System Environment Variable
+Say you have a executable called "file.exe", and it is located in "C:\Documents\". So the path to the executable is "C:\Documents\file.exe".
+
+Now if you want to run this executable from command line, you can either:
+
+Go to that directory (`cd C:\Documents`), and run `.\file.exe`. Here, ".\" tells the command line interpreter that you want to run the file in "current directory". Or,
+Specify the full path to the executable --- Run `C:\Documents\file.exe` from any directory. Or,
+Add "C:\Documents" to "PATH" environment variable. This tells the command line interpreter where to find a file if the command does not specify a path. With "C:\Documents" in "PATH", you can simply run "file.exe" from anywhere.
+
 WinSCP
 UThostname.cs.utexas.edu
 

@@ -31,9 +31,9 @@ Examples of Range:
 >>> list(range(4,4))
  []
 -------------
---------
 
 Lists vs tuples: 
+----------------
 - Elements of a list are wrapped using [ ]
 - But elements of tuples are wrapped using ()
 
@@ -101,6 +101,7 @@ TypeError: 'tuple' object does not support item assignment
 ----
 
 Exception Handling
+-----------------
 Why do we need exception handling?
 Errors in a python module produce a trace back error and stops the execution of the module. 
 Such Errors are useful for the developers not the user. 
@@ -129,21 +130,3 @@ NameError
 TypeError
 ...
 
-Operators.py
-------------
-Boolean operators are typically used on boolean values. Examples, and, or, not 
-Bitwise operators are typically used  on integral values. Examples, ~, |, &, >>, <<
-
-operators precedence: https://www.programiz.com/python-programming/precedence-associativity
-
-Example (corrections from in-class discussion):
-i = 8
-j = not i & (i - 1)
-assert j is True      # power of 2
-
-i & (i - 1) will be conducted first since & has higher precedence than not, 
-i.e., 1000 & 0111, and the result will be False
-
-j = not False 
-
-j = True

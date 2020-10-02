@@ -54,6 +54,8 @@ Traceback (most recent call last):
 StopIteration
 >>>
 ------------
+https://nvie.com/posts/iterators-vs-generators/
+https://data-flair.training/blogs/python-generator-vs-iterator/
 
 Factorial.py and FactorialT.py
 ------------------------------

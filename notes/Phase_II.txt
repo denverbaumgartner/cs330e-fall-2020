@@ -16,13 +16,17 @@ You need to do the following.
     
 	- Another option is to use this file 
 	https://gitlab.com/fareszf/collatz_calculator/-/blob/master/collatz.pyc
-	On *UTCS machines*, the comamand is:
+	On *UTCS machines*, I have uploaded this calculator to my UTCS account at "/u/fares", run the following comamand in a remote terminal:
 
-	python3 collatz.pyc < input > output
+	$ python3 collatz.pyc < input > output
 	
-	where input is a text file of the inputs and ouput is a location for output. 
-	This is compiled on a CS machine so it will work there. It may also work elsewhere.
+	where "input" is a text file of the inputs, you need to create this one, and "ouput" is 
+        where you may check the results. 
+	This is compiled on a CS machine so it will work there. Not sure if works elsewhere.
 
+	Alternatively, clone the calculator to your UTCS acount and run it on a remote terminal:
+	$ wget //gitlab.com/fareszf/collatz_calculator/-/raw/master/collatz.pyc
+	$ python3 collatz.pyc < input > output
 (2) Run the unit tests 
     This can be achieved in many ways by either: 
 

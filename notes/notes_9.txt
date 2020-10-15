@@ -19,7 +19,7 @@ any([]) = False
 https://docs.python.org/3.5/library/functions.html#all
 
 FunctionKeywords.py
-Note 1: the specified "by name" arguments should have corresponds with the names 
+Note 1: the specified "by name" arguments should have correspondance with the names 
 in the function signature as parameters.
 Note 2: In the functional call, when you mix "by position" and "by name" arguments, 
 arguments passed "by position" should come first. 

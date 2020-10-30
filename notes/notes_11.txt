@@ -1,12 +1,14 @@
 Range and RangeIterator: 
 ------------------------
-RanfIterator.py:
+RangIterator.py:
 ---------------
 In RangeIteratorT we see that range_iterator_class and 
 range_iterator_function are imported meaning we 
 can implement the rangeIterator functionality in 
 both a class and a function.
  
+Range.py:
+--------
 In RangeT we see that range_1, and range_2 are imported. 
 More importantly on lines 50-51 list() is called twice 
 and we get a new iterator both times! This logic can't be 

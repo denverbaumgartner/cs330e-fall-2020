@@ -1,0 +1,20 @@
+>>> def make_inc_b (j) :
+...     return lambda i : i + j
+...
+>>>
+>>> x = make_inc_b(1)(2)
+>>> x
+3
+>>> def make_inc_b (j, k) :
+...     return lambda i : i + j + k
+...
+>>> x = make_inc_b(1,2)(2)
+>>> x
+5
+>>> def make_inc_b (j) :
+...     return lambda i, k : i + k + j
+...
+>>> x = make_inc_b(1)(2,3)
+>>> x
+6
+>>>

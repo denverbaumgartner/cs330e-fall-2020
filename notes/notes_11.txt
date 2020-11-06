@@ -45,25 +45,4 @@ Whenever you create an object of Range_1, you need to pass two variables, namely
 Afterward, whenever you try to navigate this object, You'll get an 
 instance of the inner class with the original variable values. 
 ------
-
---------------------------
->>> def make_inc_b (j) :
-...     return lambda i : i + j
-...
->>>
->>> x = make_inc_b(1)(2)
->>> x
-3
->>> def make_inc_b (j, k) :
-...     return lambda i : i + j + k
-...
->>> x = make_inc_b(1,2)(2)
->>> x
-5
->>> def make_inc_b (j) :
-...     return lambda i, k : i + k + j
-...
->>> x = make_inc_b(1)(2,3)
->>> x
-6
->>>
+https://opensource.com/article/18/3/loop-better-deeper-look-iteration-python
